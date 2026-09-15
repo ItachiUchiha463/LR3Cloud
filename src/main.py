@@ -8,3 +8,4 @@ app = FastAPI(
 )
 
 app.include_router(common_routes.router)
+app.include_router(common_routes.storage_router)
