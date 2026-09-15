@@ -1,0 +1,46 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Databases (sqlite, etc.)
+*.sqlite3
+*.db
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Alembic (якщо не хочете комітити локальні міграційні артефакти — зазвичай самі міграції все ж комітяться, ігноруйте тільки якщо не потрібні)
+# alembic/versions/*.pyc
